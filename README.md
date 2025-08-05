@@ -38,9 +38,6 @@ PhishScope/
 ├── README.md # Project documentation
 └── requirements.txt # Dependencies
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -123,3 +120,4 @@ Visualization (BI) bridges the gap between data scientists and decision-makers.
 
 📜 License
 MIT License – feel free to use, modify, and share with attribution.
+

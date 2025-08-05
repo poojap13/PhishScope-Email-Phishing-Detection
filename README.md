@@ -73,7 +73,11 @@ Upload a CSV of emails with `subject` and `body` columns → get:
 - **Binary prediction** (Phish / Legit).
 - **Top suspicious emails**.
 - Downloadable prediction CSV.
-- 🚀 **Live Demo:** [Click here to try PhishScope](https://your-streamlit-app-link.streamlit.app/)
+## 📷 Streamlit App Screenshots
+
+![Streamlit Screenshot 1](charts/streamlit_app_1.png)
+![Streamlit Screenshot 2](charts/streamlit_app_2.png)
+![Streamlit Screenshot 3](charts/streamlit_app_3.png)
 
 
 
@@ -106,3 +110,4 @@ Visualization (BI) bridges the gap between data scientists and decision-makers.
 
 📜 License
 MIT License – feel free to use, modify, and share with attribution.
+

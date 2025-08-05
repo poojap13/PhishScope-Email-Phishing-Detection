@@ -36,7 +36,10 @@ PhishScope/
 ├── scripts/                    # Data processing & training scripts
 ├── README.md                   # Project documentation
 └── requirements.txt            # Dependencies
-` ``` `
+---
+
+
+
 ## 🛠 Tech Stack
 **Languages:** Python, DAX (Power BI)  
 **ML/NLP:** scikit-learn, TF-IDF, Logistic Regression  
@@ -116,6 +119,7 @@ Visualization (BI) bridges the gap between data scientists and decision-makers.
 
 📜 License
 MIT License – feel free to use, modify, and share with attribution.
+
 
 
 

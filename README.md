@@ -23,22 +23,6 @@ Most ML models detect phishing well on their training data but **fail in the rea
 ✅ **Interactive Streamlit app** – Upload and scan emails with probability scoring.  
 ✅ **Power BI dashboard** – Visual insights for management and security teams.
 
-## 📂 Project Structure
-```text
-PhishScope/
-│
-├── app/                        # Streamlit app
-├── charts/                     # Plots, figures, screenshots
-├── dashboard/                  # Power BI files & CSV
-├── data/                       # Sample datasets
-├── models/                     # Saved ML models
-├── notebooks/                  # EDA Jupyter notebooks
-├── scripts/                    # Data processing & training scripts
-├── README.md                   # Project documentation
-└── requirements.txt            # Dependencies
----
-
-
 
 ## 🛠 Tech Stack
 **Languages:** Python, DAX (Power BI)  
@@ -81,6 +65,19 @@ Upload a CSV of emails with `subject` and `body` columns → get:
 </p>
 
 ---
+## 📂 Project Structure
+```text
+PhishScope/
+│
+├── app/                        # Streamlit app
+├── charts/                     # Plots, figures, screenshots
+├── dashboard/                  # Power BI files & CSV
+├── data/                       # Sample datasets
+├── models/                     # Saved ML models
+├── notebooks/                  # EDA Jupyter notebooks
+├── scripts/                    # Data processing & training scripts
+├── README.md                   # Project documentation
+└── requirements.txt            # Dependencies
 
 ## ⚡ Run Locally
 ```bash
@@ -119,6 +116,7 @@ Visualization (BI) bridges the gap between data scientists and decision-makers.
 
 📜 License
 MIT License – feel free to use, modify, and share with attribution.
+
 
 
 

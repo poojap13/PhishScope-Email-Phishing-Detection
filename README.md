@@ -29,7 +29,7 @@ Most ML models detect phishing well on their training data but **fail in the rea
 PhishScope/
 │
 ├── app/ # Streamlit app
-├── charts/ # Plots & figures
+├── charts/ # Plots, figures, screenshots
 ├── dashboard/ # Power BI files & CSV
 ├── data/ # Sample datasets
 ├── models/ # Saved ML models
@@ -39,7 +39,8 @@ PhishScope/
 └── requirements.txt # Dependencies
 
 yaml
-Copy code
+Copy
+Edit
 
 ---
 
@@ -73,21 +74,34 @@ Upload a CSV of emails with `subject` and `body` columns → get:
 - **Binary prediction** (Phish / Legit).
 - **Top suspicious emails**.
 - Downloadable prediction CSV.
+
+---
+
 ## 📷 Streamlit App Screenshots
+<p float="left">
+  <img src="charts/streamlit_app_1.png" width="32%" />
+  <img src="charts/streamlit_app_2.png" width="32%" />
+  <img src="charts/streamlit_app_3.png" width="32%" />
+</p>
 
-![Streamlit Screenshot 1](charts/streamlit_app_1.png)
-![Streamlit Screenshot 2](charts/streamlit_app_2.png)
-![Streamlit Screenshot 3](charts/streamlit_app_3.png)
+---
 
-
-
-**Run locally:**
+## ⚡ Run Locally
 ```bash
+# Clone repository
 git clone https://github.com/poojap13/PhishScope-Email-Phishing-Detection.git
 cd PhishScope-Email-Phishing-Detection
+
+# Create virtual environment
 python -m venv phishscope_env
+
+# Activate (Windows PowerShell)
 phishscope_env\Scripts\activate
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run Streamlit app
 streamlit run app/app.py
 📊 Power BI Dashboard (Optional)
 Features:
@@ -100,7 +114,6 @@ Keyword frequency & suspicious term analysis.
 
 Link count vs phishing probability correlation.
 
-
 🧠 Key Learnings
 Cross-domain testing is critical for security ML models.
 
@@ -110,4 +123,3 @@ Visualization (BI) bridges the gap between data scientists and decision-makers.
 
 📜 License
 MIT License – feel free to use, modify, and share with attribution.
-

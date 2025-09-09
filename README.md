@@ -66,7 +66,7 @@ Upload a CSV of emails with `subject` and `body` columns → get:
 
 ---
 ## 📂 Project Structure
-```text
+
 PhishScope/
 │
 ├── app/                        # Streamlit app
@@ -79,8 +79,9 @@ PhishScope/
 ├── README.md                   # Project documentation
 └── requirements.txt            # Dependencies
 
+
 ## ⚡ Run Locally
-```bash
+
 # Clone repository
 git clone https://github.com/poojap13/PhishScope-Email-Phishing-Detection.git
 cd PhishScope-Email-Phishing-Detection
@@ -116,6 +117,7 @@ Visualization (BI) bridges the gap between data scientists and decision-makers.
 
 📜 License
 MIT License – feel free to use, modify, and share with attribution.
+
 
 
 
